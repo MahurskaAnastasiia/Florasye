@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:wght@400;700&display=swap');
+
+.container {
+    background-color: #f2f5d5;
+    padding: 35px 24px 60px 24px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    background-color: #D9EDA9;
+    border-radius: 37px;
+    padding: 27px 32px;
+    width: 358px;
+    height: 179px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.title {
+    color: #495918;
+    opacity: 0.75;
+    font-family: 'Arsenal SC', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    margin: 0;
+    line-height: 1;
+}
+
+.cardBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.value {
+    color: #000000;
+    font-family: 'Arsenal SC', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1;
+    z-index: 2;
+}
+
+.revenueIcon {
+    position: absolute;
+    right: 16px;
+    bottom: 12px;
+    width: 125px;
+    height: 120px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.warningIcon {
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+    width: 85px;
+    height: 80px;
+    pointer-events: none;
+}
+
+.reportCard {
+    width: 440px;
+    height: 240px;
+    padding: 24px 30px;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.reportTitle {
+    color: #495918;
+    opacity: 0.85;
+    font-family: 'Arsenal SC', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+}
+
+.metricGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    color: #2c3e12;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.track {
+    background-color: #e2cba6;
+    height: 3px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.fill {
+    background-color: #7d933a;
+    height: 100%;
+}

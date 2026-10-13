@@ -1,0 +1,40 @@
+.btnAddFlower {
+    min-width: 270px;
+    height: 66px;
+    background: #d9eda9;
+    border-radius: 19px;
+    border: none;
+    font-family: 'Arsenal SC', sans-serif;
+    font-size: 28px;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0 20px;
+    transition: opacity 0.2s;
+}
+
+.btnAddWaste {
+    min-width: 270px;
+    height: 66px;
+    background: #ffbdbd;
+    border-radius: 19px;
+    border: none;
+    font-family: 'Arsenal SC', sans-serif;
+    font-size: 28px;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0 20px;
+    transition: opacity 0.2s;
+}
+
+.btnAddFlower:hover,
+.btnAddWaste:hover {
+    opacity: 0.85;
+}

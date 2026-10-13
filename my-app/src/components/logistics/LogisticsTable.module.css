@@ -1,0 +1,141 @@
+.container {
+    padding: 40px;
+}
+
+.topBanner {
+    background: #b5c888;
+    border-radius: 20px;
+    padding: 24px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.titleCard {
+    background: #f3fcad;
+    border-radius: 15px;
+    padding: 12px 28px;
+    font-family: 'Arsenal SC', sans-serif;
+    font-size: 36px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.btnCreate {
+    background: #f3fcad;
+    border-radius: 16px;
+    border: none;
+    padding: 12px 28px;
+    font-family: 'Arsenal SC', sans-serif;
+    font-size: 32px;
+    color: #000000;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.1s;
+}
+
+.btnCreate:hover {
+    opacity: 0.85;
+    transform: translateY(-1px);
+}
+
+.tableCard {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 24px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    background: #eaf5d0;
+    padding: 18px 20px;
+    text-align: left;
+    font-family: 'Armata', 'Inter', sans-serif;
+    font-size: 18px;
+    color: #2f3912;
+    font-weight: 400;
+}
+
+.table th:first-child {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.table th:last-child {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.table td {
+    padding: 20px;
+    border-bottom: 1px solid #f3f4f6;
+    font-family: 'Arial', sans-serif;
+    vertical-align: middle;
+}
+
+.routeNumber {
+    font-size: 14px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.carInfo {
+    font-size: 14px;
+    color: #4b5563;
+}
+
+.locationBadge {
+    display: inline-block;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.cargoBadge {
+    display: inline-block;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.cargoAmount {
+    font-weight: 700;
+    color: #111827;
+    margin-right: 4px;
+}
+
+.statusBadge {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 110px;
+    box-sizing: border-box;
+}
+
+.statusDone {
+    background: #009688;
+    color: #ffffff;
+}
+
+.statusInTransit {
+    background: #2563eb;
+    color: #ffffff;
+}

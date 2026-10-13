@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+.header {
+    width: 100%;
+    background-color: #7D933A;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logoSvg {
+    width: 62px;
+    height: 56px;
+    flex-shrink: 0;
+}
+
+.logoText {
+    color: #ffffff;
+    font-family: 'Sedan SC', serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 1;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav button {
+    background-color: #aed9a8;
+    border: none;
+    color: #1c2e08;
+    padding: 8px 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    transition: opacity 0.2s;
+}
+
+.nav button:hover {
+    opacity: 0.9;
+}
+
+.nav .signInBtn {
+    background-color: #e8e6d9;
+    color: #333333;
+    margin-left: 25px;
+    font-weight: 400;
+}
