@@ -1,6 +1,6 @@
 describe('Florasye E2E Navigation Test', () => {
     beforeEach(() => {
-        cy.visit('http://localhost:3000');
+        cy.visit('http://localhost:5173');
     });
 
     it('перевірка завантаження головної сторінки', () => {
